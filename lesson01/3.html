@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    </meta>
+</head>
+
+<body>
+    <script>
+        'use strict';
+        let result1 = 10 + 10 + "10";
+        console.log(result1);
+        let result2 = 10 + "10" + 10;
+        console.log(result2);
+        let result3 = 10 + 10 + +"10";
+        console.log(result3);
+        let result4 = 10 / -"";
+        console.log(result4);
+        let result5 = 10 / +"2,5";
+        console.log(result5);
+        /*
+        1. 2010: Сложение 10+10 и конкатенация со строкой 10
+        2. 101010: конкатенация число и срока, конкатенация строка и число
+        3. 30: Сложение 10+10, добавление к результату числа 10(унарный плюс) 
+        4. Infinity: Минус бесконечность - деление на минус ноль
+        5. NaN: неопределено, потому что чило 10 деится на строку 2,5: дробное число было бы с точкой
+        */
+
+    </script>
+</body>
+
+</html>
